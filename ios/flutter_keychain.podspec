@@ -17,5 +17,6 @@ Flutter secure storage via Keychain and Keystore
   s.dependency 'Flutter'
   
   s.ios.deployment_target = '8.0'
+  s.resource_bundles = {'flutter_keychain_privacy' => ['Resources/PrivacyInfo.xcprivacy']}
 end
 
